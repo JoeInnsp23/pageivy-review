@@ -10,4 +10,4 @@ Disallow: /_astro/
 Crawl-delay: 1
 
 # Sitemap location (will be updated after build by astrowind integration)
-Sitemap: https://page-ivy.co.uk/sitemap-index.xml
+Sitemap: https://review.pageivy.com/sitemap-index.xml
