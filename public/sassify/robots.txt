@@ -1,0 +1,12 @@
+# robots.txt for Page Ivy
+# Last updated: 2025-10-03
+
+User-agent: *
+Allow: /
+
+# Disallow utility pages that shouldn't be indexed
+Disallow: /thank-you
+Disallow: /404
+
+# Sitemap
+Sitemap: https://page-ivy.co.uk/sitemap-index.xml

@@ -1,0 +1,13 @@
+# Page Ivy - Modern Accountants for Digital Businesses
+# https://page-ivy.co.uk
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_astro/
+
+# Crawl rate
+Crawl-delay: 1
+
+# Sitemap location (will be updated after build by astrowind integration)
+Sitemap: https://page-ivy.co.uk/sitemap-index.xml

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Ivy Theme Review | Select Your Favorite Design</title>
+    <meta name="description" content="Review and compare 4 website themes for Page Ivy Accountants. Choose your favorite design for the new website.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0C243C 0%, #1E3A5F 100%);
+            min-height: 100vh;
+            padding: 2rem;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0C243C;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #5BBDB2;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #666;
+            margin-top: 1rem;
+        }
+
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .theme-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .theme-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        }
+
+        .theme-header {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #0C243C 0%, #1E3A5F 100%);
+            color: white;
+        }
+
+        .theme-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .theme-subtitle {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .theme-body {
+            padding: 1.5rem;
+        }
+
+        .theme-features {
+            list-style: none;
+            margin: 1rem 0;
+        }
+
+        .theme-features li {
+            padding: 0.5rem 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .theme-features li:before {
+            content: "✓";
+            color: #5BBDB2;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .theme-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background: #5BBDB2;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #4AAAA0;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #0C243C;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        .badge-favorite {
+            background: #FFD700;
+            color: #0C243C;
+        }
+
+        .badge-new {
+            background: #5BBDB2;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: #5BBDB2;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .theme-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .theme-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌿 Page Ivy Theme Review</h1>
+            <p class="tagline">Accountants & Business Advisors for the Creator Economy</p>
+            <p class="subtitle">Select your favorite design for the new website</p>
+        </header>
+
+        <div class="theme-grid">
+            <!-- AstroWind Theme -->
+            <div class="theme-card">
+                <div class="theme-header">
+                    <h2 class="theme-title">AstroWind</h2>
+                    <p class="theme-subtitle">Blog & Content Focused</p>
+                    <span class="badge badge-favorite">⭐ Favorite #1</span>
+                </div>
+                <div class="theme-body">
+                    <ul class="theme-features">
+                        <li>YAML configuration</li>
+                        <li>CSS variables</li>
+                        <li>MDX blog support</li>
+                        <li>SEO optimized</li>
+                        <li>Fast performance</li>
+                    </ul>
+                    <div class="theme-buttons">
+                        <a href="/astrowind/" class="btn btn-primary">View Theme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foxi Theme -->
+            <div class="theme-card">
+                <div class="theme-header">
+                    <h2 class="theme-title">Foxi</h2>
+                    <p class="theme-subtitle">Modern Agency Design</p>
+                    <span class="badge badge-favorite">⭐ Favorite #2</span>
+                </div>
+                <div class="theme-body">
+                    <ul class="theme-features">
+                        <li>Tailwind CSS v3</li>
+                        <li>Pill-shaped buttons</li>
+                        <li>Teal accents</li>
+                        <li>Rich components</li>
+                        <li>Google Analytics ready</li>
+                    </ul>
+                    <div class="theme-buttons">
+                        <a href="/foxi/" class="btn btn-primary">View Theme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sassify Theme -->
+            <div class="theme-card">
+                <div class="theme-header">
+                    <h2 class="theme-title">Sassify</h2>
+                    <p class="theme-subtitle">SaaS Landing Page</p>
+                    <span class="badge badge-favorite">⭐ Favorite #3</span>
+                </div>
+                <div class="theme-body">
+                    <ul class="theme-features">
+                        <li>Tailwind CSS v4</li>
+                        <li>Alpine.js interactivity</li>
+                        <li>Dark mode toggle</li>
+                        <li>Modern animations</li>
+                        <li>Lightweight & fast</li>
+                    </ul>
+                    <div class="theme-buttons">
+                        <a href="/sassify/" class="btn btn-primary">View Theme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CodeStitch Theme -->
+            <div class="theme-card">
+                <div class="theme-header">
+                    <h2 class="theme-title">CodeStitch</h2>
+                    <p class="theme-subtitle">Accounting Services Focused</p>
+                    <span class="badge badge-new">✨ Ready to Review</span>
+                </div>
+                <div class="theme-body">
+                    <ul class="theme-features">
+                        <li>LESS CSS styling</li>
+                        <li>JSON data structure</li>
+                        <li>Dark mode support</li>
+                        <li>SEO optimized</li>
+                        <li>Accessibility ready</li>
+                    </ul>
+                    <div class="theme-buttons">
+                        <a href="/codestitch/" class="btn btn-primary">View Theme</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built with Astro &amp; deployed on Coolify</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+                <a href="https://www.pageivy.com" target="_blank">www.pageivy.com</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

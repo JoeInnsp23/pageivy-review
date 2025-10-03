@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://review.pageivy.com/sitemap-index.xml
