@@ -1,0 +1,11 @@
+# Robots.txt for Page Ivy
+# Modern Accounting for Digital Businesses
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private pages (add as needed)
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://www.page-ivy.co.uk/sitemap.xml
